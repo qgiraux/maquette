@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Dates</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="tournee.js" type="module" defer></script>
+</head>
+<header>
+    <section class="options">
+        <a href="#" class="option"><i class="icon-profile"></i> Mon Profil</a>
+        <a href="#" class="option"><i class="icon-settings"></i> Paramètres</a>
+        <a href="index.html" class="option"><i class="icon-logout"></i> Déconnexion</a>
+        <a href="artiste.html" class="option"><i class="icon-home"></i> Accueil</a>
+    </section>
+</header>
+<body>
+    <h1>Mes Dates</h1>
+    <div id="calendar-controls">
+        <button id="prevMonth">Previous Month</button>
+        <span id="monthDisplay">July 2026</span>
+        <button id="nextMonth">Next Month</button>
+    </div>
+    <div id="calendar"></div>
+    <h2>Evènements prévus :</h2>
+    <ul id="artistList"></ul>
+</body>
+</html>
